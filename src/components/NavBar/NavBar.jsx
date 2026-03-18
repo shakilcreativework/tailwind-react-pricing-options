@@ -42,13 +42,19 @@ const NavBar = () => {
             {/* <Menu /> */}
             <span className='flex items-center gap-1' onClick={() => setOpen(!open)}>
                 {
-                    open ? <Menu className='md:hidden' />
+                    !open ? <Menu className='md:hidden' />
                     :
                     <X className='md:hidden' />
                 }
                 {
-                    !open &&
-                    <ul className='md:hidden absolute bg-amber-400 left-10 top-2'>
+                    <ul className={`
+                    md:hidden absolute  duration-1000 left-12
+                    ${open ?
+                        'top-2'
+                        :
+                        '-top-40'
+                    }
+                    `}>
                         {
                             links
                         }
