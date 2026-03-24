@@ -32,13 +32,13 @@ const routes = [
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
-    console.log(open);
+    // console.log(open);
 
     // links
     const links = routes.map(route => <Link key={route.id} route={route} />);
 
     return (
-        <nav className='flex justify-between mx-2 lg:mx-5 py-2'>
+        <nav className='flex justify-between py-2'>
             {/* <Menu /> */}
             <span className='flex items-center gap-1' onClick={() => setOpen(!open)}>
                 {

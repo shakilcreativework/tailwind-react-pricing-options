@@ -1,0 +1,41 @@
+[
+  {
+    "id": "plan_basic_001",
+    "name": "Basic Plan",
+    "price": 20,
+    "billing": "monthly",
+    "info": "Good for beginners and casual users",
+    "features": [
+      "Gym equipment access",
+      "Open hours access",
+      "Locker room access"
+    ]
+  },
+  {
+    "id": "plan_standard_002",
+    "name": "Standard Plan",
+    "price": 40,
+    "billing": "monthly",
+    "info": "Best for regular members who want guidance",
+    "features": [
+      "All Basic features",
+      "Group classes",
+      "2 trainer sessions/month",
+      "Workout plan"
+    ]
+  },
+  {
+    "id": "plan_premium_003",
+    "name": "Premium Plan",
+    "price": 70,
+    "billing": "monthly",
+    "info": "For serious fitness goals with full support",
+    "features": [
+      "All Standard features",
+      "Unlimited trainer sessions",
+      "24/7 gym access",
+      "Diet plan",
+      "Body progress tracking"
+    ]
+  }
+]
